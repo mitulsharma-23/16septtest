@@ -1,11 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=F, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=F, initial-scale=1.0" />
     <title>F1Contest</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Delhi</h1>
+        <p>The city of adventures!!</p>
+    </header>
+
+    <nav>
+        <a href="#">Description</a> |
+        <a href="#">Attractions</a> |
+        <a href="#">Tours</a> |
+        <a href="#">Tour Guides</a> |
+        <a href="#">Feedback</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Help</a>
+    </nav>
+    <hr>
+    <section>
+        <h2>Discover Delhi</h2>
+        <img src="./julian-yu-_WuPjE-MPHo-unsplash.jpg" alt="delhi" height="500px">
+        <p>Delhi. the city where every step leads to a new adventure, offering many dream places!</p>
+    </section>
+    <hr>
+    <section>
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>India Gate</li>
+            <li>Red Fort</li>
+            <li>Akshardham</li>
+            <li>Qutab Minar</li>
+            <li>Humayun's Tomb</li>
+        </ol>
+
+        <h3>Local Favourites</h3>
+        <ul>
+            <li>August Kranti Marg</li>
+            <li>Mosaic Restuarant</li>
+            <li>Connaught Place
+                <ul>
+                    <li>Jantar Mantar</li>
+                    <li>Georgian-style architecture</li>
+                    <li>Centre of attraction</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>City Statistics</h1>
+        <table border="1px">
+            <tr>
+                <th>S No.</th>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Population</td>
+                <td>32.9 million</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Landmarks</td>
+                <td>108</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Parks</td>
+                <td>18,000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Schools</td>
+                <td>5,619</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Colleges</td>
+                <td>3,134</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Restuarants</td>
+                <td>95,187</td>
+            </tr>
+        </table>.
+        <br>
+    </section>
+    <hr>
+    <section>
+        <h1>Feedback</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="abc" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="abc@gmail.com" name="email"><br><br>
+
+            <label for="age">Age:</label>
+            <input id="age" type="number" name="age" min="1" max="100"><br><br>
+
+            <label for="fav">Favourite Attraction:</label>
+            <select id="fav" name="fav_attraction">
+                <option>India Gate</option>
+                <option>Red Fort</option>
+                <option>Akshardham</option>
+                <option>Qutab Minar</option>
+                <option>Humayun's Tomb</option>
+            </select><br><br>
+
+            <label for="comment">Comments:</label>
+            <textarea id="comment" name="feedback" placeholder="type here"></textarea><br><br>
+
+            <label for="tick">Newsletter:</label>
+            <input type="checkbox"> Subscribe to our newsletter <br><br>
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h1>What Citizens Say</h1>
+        <p><span>"It was a wonderful trip that none of us will ever forget."</span> - Adam West</p>
+        <p><span>"New Delhi is one of the best place for tourists,students,researchers etc."</span> - Brock Pratt</p>
+    </section>
+        <hr>
+    <section>
+        <h1>Contact Us</h1>
+        <address><i><p>
+            Delhi Tourism Office<br>
+            Near India Gate, Sector 5, Delhi<br>
+            Email: <a href="#">info@delhi.in</a><br>
+            Phone: 123-456-7890</p>
+        </i></address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delhi Tourism. Dive into adventures!</p>
+    </footer>
+  </body>
 </html>
